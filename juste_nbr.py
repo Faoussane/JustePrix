@@ -12,7 +12,6 @@ def jeu(score):
         except:
             print('Entrez uniquement des nombres')
     nombre_mystere = random.randint(1, 100)
-    print(nombre_mystere)
     while (nbrEss != i):
         i += 1
         while 1:
